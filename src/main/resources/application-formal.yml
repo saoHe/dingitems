@@ -1,0 +1,100 @@
+server:
+  port: 8080
+spring:
+  #  方法尚未被实作
+  jpa:
+    properties:
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults: false
+  #  正常数据源配置
+  datasource:
+    url: jdbc:mysql://rm-bp1i8073p56f28111.mysql.rds.aliyuncs.com:3306/iot?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    userName: gc_hjw
+    password: 1qaz!qaz
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    platform: mysql
+    #druid相关配置
+
+  druid:
+    #初始化时建立物理连接的个数
+    initialSize: 10
+    #最小连接池数量
+    minIdle: 10
+    #最大连接池数量
+    maxActive: 200
+    #获取连接时最大等待时间，单位毫秒
+    maxWait: 60000
+    #配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+    timeBetweenEvictionRunsMillis: 60000
+    # 连接保持空闲而不被驱逐的最小时间
+    minEvictableIdleTimeMillis: 300000
+    #用来检测连接是否有效的sql，要求是一个查询语句
+    validationQuery: SELECT 1 FROM DUAL
+    # 建议配置为true，不影响性能，并且保证安全性。申请连接的时候检测，如果空闲时间大于timeBetweenEvictionRunsMillis，执行validationQuery检测连接是否有效。
+    testWhileIdle: true
+    # 申请连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能。
+    testOnBorrow: false
+    # 归还连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能。
+    testOnReturn: false
+    # 是否缓存preparedStatement，也就是PSCache。PSCache对支持游标的数据库性能提升巨大，比如说oracle。在mysql下建议关闭。
+    poolPreparedStatements: false
+    # 要启用PSCache，必须配置大于0，当大于0时，poolPreparedStatements自动触发修改为true。
+    maxPoolPreparedStatementPerConnectionSize: 20
+    #  配置监控统计拦截的filters，去掉后监控界面sql无法统计
+    filters: stat,wall
+    # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+    connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+    # 合并多个DruidDataSource的监控数据
+    use-global-data-source-stat: true
+
+  #redis配置开始
+  redis:
+    # Redis数据库索引（默认为0）
+    database: 0
+    # Redis服务器地址
+    host: r-bp1qwnszov3m7heojb.redis.rds.aliyuncs.com
+    # Redis服务器连接端口
+    port: 6379
+    # Redis服务器连接密码（默认为空）
+    password: 1qaz!qaz
+    # 连接超时时间（毫秒）
+    timeout: 10000
+    # 当资源池用尽后，调用者是否要等待。只有当为true时，配置的maxWaitMillis参数才会生效 【默认值：true】
+    block-when-exhausted: true
+    jedis:
+      pool:
+        # 连接池最大连接数（使用负值表示没有限制）
+        max-active: 1024
+        # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-wait: 10000
+        # 连接池中的最大空闲连接
+        max-idle: 200
+        # 连接池中的最小空闲连接
+        min-idle: 0
+        # 连接池中的最小空闲连接
+
+#database0:
+#  driverClassName: com.mysql.jdbc.Driver
+#  url: jdbc:mysql://rm-bp1i8073p56f28111.mysql.rds.aliyuncs.com:3306/iot?useSSL=false&useUnicode=true&characterEncoding=utf-8
+#  userName: gc_hjw
+#  password: 1qaz!qaz
+#  dataBaseName: database0
+#database1:
+#    driverClassName: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/shoucangbao?useSSL=false
+#    userName: root
+#    password: 123456
+#    dataBaseName: database1
+
+# 业务公共资源
+iotdatasource:
+  downloadAddress: /home/upgrade/ #iot上传固件地址
+  downloadEmsLog: /home/emslog/ #iot上传日志地址
+  iotAddress: 192.168.0.40 #iot 服务器地址
+  iotPort: 50055
+  upgradeAddress: http://wbstarenergy.com/upgrade #固件链接url
+  logUploadUrl: http://wbstarenergy.com/main/iot/upload/logUpload #上传ems日志url
+  logUrlAddress: http://wbstarenergy.com/emslog #ems日志下载链接
+  multiterminalLogin: false #是否支持多端登录,false的同时需要开启缓存才有效

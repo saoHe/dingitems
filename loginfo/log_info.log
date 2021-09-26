@@ -1,0 +1,429 @@
+2021-09-25 18:17:51.360 [main] INFO  com.ding.dingitems.DingitemsApplication - Starting DingitemsApplication using Java 1.8.0_101 on PC-202010120908 with PID 828 (G:\idea\items\dingitems\target\classes started by Administrator in G:\idea\items\dingitems)
+2021-09-25 18:17:51.364 [main] INFO  com.ding.dingitems.DingitemsApplication - The following profiles are active: dev
+2021-09-25 18:17:52.536 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 18:17:52.536 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-25 18:17:52.559 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2021-09-25 18:17:52.597 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 18:17:52.598 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-25 18:17:52.627 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-09-25 18:17:53.346 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-09-25 18:17:53.346 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1933 ms
+2021-09-25 18:17:53.402 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-09-25 18:17:53.592 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-09-25 18:17:53.739 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-09-25 18:17:55.583 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - JedisPool注入成功！！
+2021-09-25 18:17:55.584 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - redis地址：127.0.0.1:6379
+2021-09-25 18:17:55.815 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-25 18:17:56.666 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final
+2021-09-25 18:17:56.695 [main] INFO  org.xnio - XNIO version 3.8.0.Final
+2021-09-25 18:17:56.712 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.0.Final
+2021-09-25 18:17:56.754 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2021-09-25 18:17:56.847 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 9090 (http)
+2021-09-25 18:17:56.854 [main] INFO  com.ding.dingitems.DingitemsApplication - Started DingitemsApplication in 6.213 seconds (JVM running for 7.974)
+2021-09-25 18:18:20.584 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-25 18:18:20.584 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-25 18:18:20.586 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-09-25 18:42:40.837 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final
+2021-09-25 18:42:40.840 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-25 18:42:47.218 [main] INFO  com.ding.dingitems.DingitemsApplication - Starting DingitemsApplication using Java 1.8.0_101 on PC-202010120908 with PID 9016 (G:\idea\items\dingitems\target\classes started by Administrator in G:\idea\items\dingitems)
+2021-09-25 18:42:47.219 [main] INFO  com.ding.dingitems.DingitemsApplication - The following profiles are active: dev
+2021-09-25 18:42:47.700 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 18:42:47.700 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-25 18:42:47.720 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2021-09-25 18:42:47.731 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 18:42:47.732 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-25 18:42:47.747 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-09-25 18:42:48.135 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-09-25 18:42:48.136 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 884 ms
+2021-09-25 18:42:48.165 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-09-25 18:42:48.259 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-09-25 18:42:48.375 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-09-25 18:42:50.391 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - JedisPool注入成功！！
+2021-09-25 18:42:50.392 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - redis地址：127.0.0.1:6379
+2021-09-25 18:42:50.538 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-25 18:42:50.898 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final
+2021-09-25 18:42:50.903 [main] INFO  org.xnio - XNIO version 3.8.0.Final
+2021-09-25 18:42:50.907 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.0.Final
+2021-09-25 18:42:50.931 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2021-09-25 18:42:50.956 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 9090 (http)
+2021-09-25 18:42:50.963 [main] INFO  com.ding.dingitems.DingitemsApplication - Started DingitemsApplication in 4.168 seconds (JVM running for 5.71)
+2021-09-25 18:44:05.616 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-25 18:44:05.616 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-25 18:44:05.618 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-09-25 18:44:47.045 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final
+2021-09-25 18:44:47.050 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-25 18:44:47.100 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-25 18:44:47.103 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-09-25 18:48:05.522 [main] INFO  com.ding.dingitems.DingitemsApplication - Starting DingitemsApplication using Java 1.8.0_101 on PC-202010120908 with PID 2620 (G:\idea\items\dingitems\target\classes started by Administrator in G:\idea\items\dingitems)
+2021-09-25 18:48:05.525 [main] INFO  com.ding.dingitems.DingitemsApplication - The following profiles are active: dev
+2021-09-25 18:48:06.010 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 18:48:06.010 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-25 18:48:06.030 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2021-09-25 18:48:06.041 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 18:48:06.042 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-25 18:48:06.056 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-09-25 18:48:06.440 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-09-25 18:48:06.440 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 877 ms
+2021-09-25 18:48:06.470 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-09-25 18:48:06.561 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-09-25 18:48:06.679 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-09-25 18:48:08.306 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - JedisPool注入成功！！
+2021-09-25 18:48:08.307 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - redis地址：127.0.0.1:6379
+2021-09-25 18:48:08.456 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-25 18:48:08.802 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final
+2021-09-25 18:48:08.807 [main] INFO  org.xnio - XNIO version 3.8.0.Final
+2021-09-25 18:48:08.812 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.0.Final
+2021-09-25 18:48:08.837 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2021-09-25 18:48:08.860 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 9090 (http)
+2021-09-25 18:48:08.867 [main] INFO  com.ding.dingitems.DingitemsApplication - Started DingitemsApplication in 3.756 seconds (JVM running for 5.202)
+2021-09-25 18:48:29.119 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-25 18:48:29.119 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-25 18:48:29.120 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-09-25 18:49:26.718 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final
+2021-09-25 18:49:26.720 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-25 18:49:26.735 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-25 18:49:26.738 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-09-25 18:49:32.030 [main] INFO  com.ding.dingitems.DingitemsApplication - Starting DingitemsApplication using Java 1.8.0_101 on PC-202010120908 with PID 9464 (G:\idea\items\dingitems\target\classes started by Administrator in G:\idea\items\dingitems)
+2021-09-25 18:49:32.032 [main] INFO  com.ding.dingitems.DingitemsApplication - The following profiles are active: dev
+2021-09-25 18:49:32.510 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 18:49:32.510 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-25 18:49:32.529 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2021-09-25 18:49:32.540 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 18:49:32.541 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-25 18:49:32.555 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-09-25 18:49:32.950 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-09-25 18:49:32.951 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 888 ms
+2021-09-25 18:49:32.981 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-09-25 18:49:33.078 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-09-25 18:49:33.200 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-09-25 18:49:34.873 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - JedisPool注入成功！！
+2021-09-25 18:49:34.874 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - redis地址：127.0.0.1:6379
+2021-09-25 18:49:35.018 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-25 18:49:35.363 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final
+2021-09-25 18:49:35.368 [main] INFO  org.xnio - XNIO version 3.8.0.Final
+2021-09-25 18:49:35.373 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.0.Final
+2021-09-25 18:49:35.396 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2021-09-25 18:49:35.420 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 9090 (http)
+2021-09-25 18:49:35.427 [main] INFO  com.ding.dingitems.DingitemsApplication - Started DingitemsApplication in 3.8 seconds (JVM running for 5.337)
+2021-09-25 18:49:40.559 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-25 18:49:40.559 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-25 18:49:40.561 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-09-25 18:52:57.459 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final
+2021-09-25 18:52:57.461 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-25 18:52:57.477 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-25 18:52:57.480 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-09-25 18:53:18.615 [main] INFO  com.ding.dingitems.DingitemsApplication - Starting DingitemsApplication using Java 1.8.0_101 on PC-202010120908 with PID 1376 (G:\idea\items\dingitems\target\classes started by Administrator in G:\idea\items\dingitems)
+2021-09-25 18:53:18.617 [main] INFO  com.ding.dingitems.DingitemsApplication - The following profiles are active: dev
+2021-09-25 18:53:19.106 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 18:53:19.106 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-25 18:53:19.129 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2021-09-25 18:53:19.141 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 18:53:19.142 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-25 18:53:19.158 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-09-25 18:53:19.571 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-09-25 18:53:19.571 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 922 ms
+2021-09-25 18:53:19.604 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-09-25 18:53:19.703 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-09-25 18:53:19.826 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-09-25 18:53:21.460 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - JedisPool注入成功！！
+2021-09-25 18:53:21.460 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - redis地址：127.0.0.1:6379
+2021-09-25 18:53:21.609 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-25 18:53:21.963 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final
+2021-09-25 18:53:21.968 [main] INFO  org.xnio - XNIO version 3.8.0.Final
+2021-09-25 18:53:21.972 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.0.Final
+2021-09-25 18:53:21.997 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2021-09-25 18:53:22.021 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 9090 (http)
+2021-09-25 18:53:22.028 [main] INFO  com.ding.dingitems.DingitemsApplication - Started DingitemsApplication in 3.827 seconds (JVM running for 5.382)
+2021-09-25 18:53:35.605 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-25 18:53:35.605 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-25 18:53:35.606 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-09-25 18:55:40.552 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final
+2021-09-25 18:55:40.554 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-25 18:55:40.569 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-25 18:55:40.572 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-09-25 18:55:46.097 [main] INFO  com.ding.dingitems.DingitemsApplication - Starting DingitemsApplication using Java 1.8.0_101 on PC-202010120908 with PID 1872 (G:\idea\items\dingitems\target\classes started by Administrator in G:\idea\items\dingitems)
+2021-09-25 18:55:46.099 [main] INFO  com.ding.dingitems.DingitemsApplication - The following profiles are active: dev
+2021-09-25 18:55:46.624 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 18:55:46.625 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-25 18:55:46.644 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2021-09-25 18:55:46.655 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 18:55:46.656 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-25 18:55:46.669 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-09-25 18:55:47.069 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-09-25 18:55:47.069 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 933 ms
+2021-09-25 18:55:47.104 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-09-25 18:55:47.209 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-09-25 18:55:47.331 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-09-25 18:55:49.034 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - JedisPool注入成功！！
+2021-09-25 18:55:49.034 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - redis地址：127.0.0.1:6379
+2021-09-25 18:55:49.186 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-25 18:55:49.571 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final
+2021-09-25 18:55:49.576 [main] INFO  org.xnio - XNIO version 3.8.0.Final
+2021-09-25 18:55:49.582 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.0.Final
+2021-09-25 18:55:49.611 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2021-09-25 18:55:49.638 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 9090 (http)
+2021-09-25 18:55:49.645 [main] INFO  com.ding.dingitems.DingitemsApplication - Started DingitemsApplication in 4.03 seconds (JVM running for 5.538)
+2021-09-25 18:56:08.946 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-25 18:56:08.946 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-25 18:56:08.947 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-09-25 18:59:30.553 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final
+2021-09-25 18:59:30.556 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-25 18:59:30.571 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-25 18:59:30.573 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-09-25 18:59:35.952 [main] INFO  com.ding.dingitems.DingitemsApplication - Starting DingitemsApplication using Java 1.8.0_101 on PC-202010120908 with PID 8520 (G:\idea\items\dingitems\target\classes started by Administrator in G:\idea\items\dingitems)
+2021-09-25 18:59:35.954 [main] INFO  com.ding.dingitems.DingitemsApplication - The following profiles are active: dev
+2021-09-25 18:59:36.430 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 18:59:36.430 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-25 18:59:36.449 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2021-09-25 18:59:36.460 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 18:59:36.460 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-25 18:59:36.475 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-09-25 18:59:36.875 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-09-25 18:59:36.875 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 886 ms
+2021-09-25 18:59:36.905 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-09-25 18:59:36.997 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-09-25 18:59:37.116 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-09-25 18:59:38.773 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - JedisPool注入成功！！
+2021-09-25 18:59:38.773 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - redis地址：127.0.0.1:6379
+2021-09-25 18:59:38.940 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-25 18:59:39.296 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final
+2021-09-25 18:59:39.300 [main] INFO  org.xnio - XNIO version 3.8.0.Final
+2021-09-25 18:59:39.305 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.0.Final
+2021-09-25 18:59:39.329 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2021-09-25 18:59:39.353 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 9090 (http)
+2021-09-25 18:59:39.360 [main] INFO  com.ding.dingitems.DingitemsApplication - Started DingitemsApplication in 3.815 seconds (JVM running for 5.337)
+2021-09-25 18:59:45.416 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-25 18:59:45.416 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-25 18:59:45.418 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-09-25 19:03:45.438 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final
+2021-09-25 19:03:45.440 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-25 19:03:45.457 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-25 19:03:45.459 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-09-25 19:03:50.774 [main] INFO  com.ding.dingitems.DingitemsApplication - Starting DingitemsApplication using Java 1.8.0_101 on PC-202010120908 with PID 9460 (G:\idea\items\dingitems\target\classes started by Administrator in G:\idea\items\dingitems)
+2021-09-25 19:03:50.776 [main] INFO  com.ding.dingitems.DingitemsApplication - The following profiles are active: dev
+2021-09-25 19:03:51.264 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 19:03:51.265 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-25 19:03:51.284 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2021-09-25 19:03:51.295 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 19:03:51.296 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-25 19:03:51.310 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-09-25 19:03:51.714 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-09-25 19:03:51.714 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 907 ms
+2021-09-25 19:03:51.745 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-09-25 19:03:51.837 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-09-25 19:03:51.955 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-09-25 19:03:53.588 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - JedisPool注入成功！！
+2021-09-25 19:03:53.588 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - redis地址：127.0.0.1:6379
+2021-09-25 19:03:53.731 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-25 19:03:54.085 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final
+2021-09-25 19:03:54.090 [main] INFO  org.xnio - XNIO version 3.8.0.Final
+2021-09-25 19:03:54.094 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.0.Final
+2021-09-25 19:03:54.119 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2021-09-25 19:03:54.144 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 9090 (http)
+2021-09-25 19:03:54.153 [main] INFO  com.ding.dingitems.DingitemsApplication - Started DingitemsApplication in 3.796 seconds (JVM running for 5.25)
+2021-09-25 19:04:10.123 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-25 19:04:10.123 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-25 19:04:10.124 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-09-25 19:09:15.864 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final
+2021-09-25 19:09:15.866 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-25 19:09:15.882 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-25 19:09:15.884 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-09-25 19:09:27.338 [main] INFO  com.ding.dingitems.DingitemsApplication - Starting DingitemsApplication using Java 1.8.0_101 on PC-202010120908 with PID 9740 (G:\idea\items\dingitems\target\classes started by Administrator in G:\idea\items\dingitems)
+2021-09-25 19:09:27.340 [main] INFO  com.ding.dingitems.DingitemsApplication - The following profiles are active: dev
+2021-09-25 19:09:27.813 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 19:09:27.814 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-25 19:09:27.833 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2021-09-25 19:09:27.843 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 19:09:27.843 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-25 19:09:27.858 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-09-25 19:09:28.248 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-09-25 19:09:28.248 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 877 ms
+2021-09-25 19:09:28.278 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-09-25 19:09:28.369 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-09-25 19:09:28.490 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-09-25 19:09:30.132 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - JedisPool注入成功！！
+2021-09-25 19:09:30.132 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - redis地址：127.0.0.1:6379
+2021-09-25 19:09:30.278 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-25 19:09:30.627 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final
+2021-09-25 19:09:30.631 [main] INFO  org.xnio - XNIO version 3.8.0.Final
+2021-09-25 19:09:30.636 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.0.Final
+2021-09-25 19:09:30.660 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2021-09-25 19:09:30.684 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 9090 (http)
+2021-09-25 19:09:30.691 [main] INFO  com.ding.dingitems.DingitemsApplication - Started DingitemsApplication in 3.766 seconds (JVM running for 5.277)
+2021-09-25 19:09:37.656 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-25 19:09:37.656 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-25 19:09:37.658 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-09-25 19:10:31.723 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final
+2021-09-25 19:10:31.725 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-25 19:10:31.741 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-25 19:10:31.745 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-09-25 19:10:36.591 [main] INFO  com.ding.dingitems.DingitemsApplication - Starting DingitemsApplication using Java 1.8.0_101 on PC-202010120908 with PID 6056 (G:\idea\items\dingitems\target\classes started by Administrator in G:\idea\items\dingitems)
+2021-09-25 19:10:36.593 [main] INFO  com.ding.dingitems.DingitemsApplication - The following profiles are active: dev
+2021-09-25 19:10:37.063 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 19:10:37.063 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-25 19:10:37.082 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2021-09-25 19:10:37.093 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 19:10:37.094 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-25 19:10:37.108 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-09-25 19:10:37.493 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-09-25 19:10:37.493 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 869 ms
+2021-09-25 19:10:37.521 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-09-25 19:10:37.613 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-09-25 19:10:37.731 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-09-25 19:10:39.360 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - JedisPool注入成功！！
+2021-09-25 19:10:39.360 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - redis地址：127.0.0.1:6379
+2021-09-25 19:10:39.503 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-25 19:10:39.849 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final
+2021-09-25 19:10:39.854 [main] INFO  org.xnio - XNIO version 3.8.0.Final
+2021-09-25 19:10:39.858 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.0.Final
+2021-09-25 19:10:39.883 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2021-09-25 19:10:39.906 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 9090 (http)
+2021-09-25 19:10:39.913 [main] INFO  com.ding.dingitems.DingitemsApplication - Started DingitemsApplication in 3.73 seconds (JVM running for 5.211)
+2021-09-25 19:10:50.074 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-25 19:10:50.074 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-25 19:10:50.075 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-09-25 19:15:32.727 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final
+2021-09-25 19:15:32.729 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-25 19:15:32.743 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-25 19:15:32.745 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-09-25 19:15:38.575 [main] INFO  com.ding.dingitems.DingitemsApplication - Starting DingitemsApplication using Java 1.8.0_101 on PC-202010120908 with PID 11988 (G:\idea\items\dingitems\target\classes started by Administrator in G:\idea\items\dingitems)
+2021-09-25 19:15:38.577 [main] INFO  com.ding.dingitems.DingitemsApplication - The following profiles are active: dev
+2021-09-25 19:15:39.056 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 19:15:39.056 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-25 19:15:39.076 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2021-09-25 19:15:39.086 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 19:15:39.087 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-25 19:15:39.102 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-09-25 19:15:39.489 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-09-25 19:15:39.489 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 879 ms
+2021-09-25 19:15:39.519 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-09-25 19:15:39.611 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-09-25 19:15:39.737 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-09-25 19:15:41.434 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - JedisPool注入成功！！
+2021-09-25 19:15:41.435 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - redis地址：127.0.0.1:6379
+2021-09-25 19:15:41.577 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-25 19:15:41.929 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final
+2021-09-25 19:15:41.934 [main] INFO  org.xnio - XNIO version 3.8.0.Final
+2021-09-25 19:15:41.938 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.0.Final
+2021-09-25 19:15:41.962 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2021-09-25 19:15:41.986 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 9090 (http)
+2021-09-25 19:15:41.994 [main] INFO  com.ding.dingitems.DingitemsApplication - Started DingitemsApplication in 3.898 seconds (JVM running for 5.363)
+2021-09-25 19:15:58.455 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-25 19:15:58.456 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-25 19:15:58.457 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-09-25 19:16:39.117 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final
+2021-09-25 19:16:39.119 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-25 19:16:39.134 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-25 19:16:39.135 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-09-25 19:16:44.234 [main] INFO  com.ding.dingitems.DingitemsApplication - Starting DingitemsApplication using Java 1.8.0_101 on PC-202010120908 with PID 11364 (G:\idea\items\dingitems\target\classes started by Administrator in G:\idea\items\dingitems)
+2021-09-25 19:16:44.236 [main] INFO  com.ding.dingitems.DingitemsApplication - The following profiles are active: dev
+2021-09-25 19:16:44.722 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 19:16:44.722 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-25 19:16:44.742 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2021-09-25 19:16:44.752 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 19:16:44.753 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-25 19:16:44.768 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-09-25 19:16:45.178 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-09-25 19:16:45.178 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 911 ms
+2021-09-25 19:16:45.211 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-09-25 19:16:45.312 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-09-25 19:16:45.429 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-09-25 19:16:47.066 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - JedisPool注入成功！！
+2021-09-25 19:16:47.066 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - redis地址：127.0.0.1:6379
+2021-09-25 19:16:47.213 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-25 19:16:47.562 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final
+2021-09-25 19:16:47.567 [main] INFO  org.xnio - XNIO version 3.8.0.Final
+2021-09-25 19:16:47.572 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.0.Final
+2021-09-25 19:16:47.596 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2021-09-25 19:16:47.620 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 9090 (http)
+2021-09-25 19:16:47.626 [main] INFO  com.ding.dingitems.DingitemsApplication - Started DingitemsApplication in 3.857 seconds (JVM running for 5.304)
+2021-09-25 19:16:53.950 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-25 19:16:53.951 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-25 19:16:53.953 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-09-25 19:55:39.506 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final
+2021-09-25 19:55:39.508 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-25 19:55:39.523 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-25 19:55:39.524 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-09-25 19:55:52.404 [main] INFO  com.ding.dingitems.DingitemsApplication - Starting DingitemsApplication using Java 1.8.0_101 on PC-202010120908 with PID 14200 (G:\idea\items\dingitems\target\classes started by Administrator in G:\idea\items\dingitems)
+2021-09-25 19:55:52.406 [main] INFO  com.ding.dingitems.DingitemsApplication - The following profiles are active: dev
+2021-09-25 19:55:52.908 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 19:55:52.909 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-25 19:55:52.928 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2021-09-25 19:55:52.939 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 19:55:52.940 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-25 19:55:52.955 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-09-25 19:55:53.356 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-09-25 19:55:53.356 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 912 ms
+2021-09-25 19:55:53.388 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-09-25 19:55:53.481 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-09-25 19:55:53.599 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-09-25 19:55:55.255 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - JedisPool注入成功！！
+2021-09-25 19:55:55.255 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - redis地址：127.0.0.1:6379
+2021-09-25 19:55:55.402 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-25 19:55:55.759 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final
+2021-09-25 19:55:55.764 [main] INFO  org.xnio - XNIO version 3.8.0.Final
+2021-09-25 19:55:55.769 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.0.Final
+2021-09-25 19:55:55.794 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2021-09-25 19:55:55.818 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 9090 (http)
+2021-09-25 19:55:55.825 [main] INFO  com.ding.dingitems.DingitemsApplication - Started DingitemsApplication in 3.86 seconds (JVM running for 5.366)
+2021-09-25 20:04:06.482 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final
+2021-09-25 20:04:06.503 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-25 20:04:06.504 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-09-25 20:04:10.871 [main] INFO  com.ding.dingitems.DingitemsApplication - Starting DingitemsApplication using Java 1.8.0_101 on PC-202010120908 with PID 9968 (G:\idea\items\dingitems\target\classes started by Administrator in G:\idea\items\dingitems)
+2021-09-25 20:04:10.875 [main] INFO  com.ding.dingitems.DingitemsApplication - The following profiles are active: dev
+2021-09-25 20:04:11.381 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 20:04:11.381 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-25 20:04:11.400 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2021-09-25 20:04:11.410 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 20:04:11.411 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-25 20:04:11.426 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-09-25 20:04:11.818 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-09-25 20:04:11.818 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 905 ms
+2021-09-25 20:04:11.849 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-09-25 20:04:11.942 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-09-25 20:04:12.062 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-09-25 20:04:13.685 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - JedisPool注入成功！！
+2021-09-25 20:04:13.685 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - redis地址：127.0.0.1:6379
+2021-09-25 20:04:13.829 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-25 20:04:14.204 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final
+2021-09-25 20:04:14.210 [main] INFO  org.xnio - XNIO version 3.8.0.Final
+2021-09-25 20:04:14.215 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.0.Final
+2021-09-25 20:04:14.242 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2021-09-25 20:04:14.268 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 9090 (http)
+2021-09-25 20:04:14.278 [main] INFO  com.ding.dingitems.DingitemsApplication - Started DingitemsApplication in 3.838 seconds (JVM running for 5.362)
+2021-09-25 20:04:26.402 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-25 20:04:26.402 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-25 20:04:26.404 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-09-25 20:06:45.025 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final
+2021-09-25 20:06:45.026 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-25 20:06:45.049 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-25 20:06:45.053 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-09-25 20:09:18.971 [main] INFO  com.ding.dingitems.DingitemsApplication - Starting DingitemsApplication using Java 1.8.0_101 on PC-202010120908 with PID 736 (G:\idea\items\dingitems\target\classes started by Administrator in G:\idea\items\dingitems)
+2021-09-25 20:09:18.973 [main] INFO  com.ding.dingitems.DingitemsApplication - The following profiles are active: dev
+2021-09-25 20:09:19.450 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 20:09:19.451 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-25 20:09:19.472 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2021-09-25 20:09:19.483 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-25 20:09:19.484 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-25 20:09:19.501 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-09-25 20:09:19.912 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-09-25 20:09:19.913 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 909 ms
+2021-09-25 20:09:19.942 [main] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2021-09-25 20:09:20.034 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-09-25 20:09:20.151 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-09-25 20:09:21.817 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - JedisPool注入成功！！
+2021-09-25 20:09:21.817 [main] INFO  com.ding.dingitems.util.redis.config.RedisConfig - redis地址：127.0.0.1:6379
+2021-09-25 20:09:21.967 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-25 20:09:22.343 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final
+2021-09-25 20:09:22.348 [main] INFO  org.xnio - XNIO version 3.8.0.Final
+2021-09-25 20:09:22.353 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.0.Final
+2021-09-25 20:09:22.380 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2021-09-25 20:09:22.406 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 9090 (http)
+2021-09-25 20:09:22.414 [main] INFO  com.ding.dingitems.DingitemsApplication - Started DingitemsApplication in 3.882 seconds (JVM running for 5.396)
+2021-09-25 20:09:37.755 [XNIO-1 task-1] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-25 20:09:37.756 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-25 20:09:37.757 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-09-25 20:18:36.678 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final
+2021-09-25 20:18:36.680 [SpringContextShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-09-25 20:18:36.695 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-25 20:18:36.698 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

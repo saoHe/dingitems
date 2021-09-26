@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ding.dingitems.meeting.mapper.DdUserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ding.dingitems.meeting.entity.DdUser">
+        <id column="id" property="id" />
+        <result column="enterprise_id" property="enterpriseId" />
+        <result column="dd_id" property="ddId" />
+        <result column="dd_name" property="ddName" />
+        <result column="unionid" property="unionid" />
+        <result column="mobile" property="mobile" />
+        <result column="account" property="account" />
+        <result column="isadmin" property="isadmin" />
+        <result column="password" property="password" />
+        <result column="device_id" property="deviceId" />
+        <result column="is_sys" property="isSys" />
+        <result column="sys_level" property="sysLevel" />
+        <result column="status" property="status" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, enterprise_id, dd_id, dd_name, unionid, mobile, account, isadmin, password, device_id, is_sys, sys_level, status, create_time, update_time
+    </sql>
+
+    <select id="selectUserByDdid" parameterType="java.util.Map" resultMap="BaseResultMap">
+
+        SELECT * FROM dd_user
+        WHERE 1=1
+        AND dd_id = #{ddid}
+
+    </select>
+
+</mapper>

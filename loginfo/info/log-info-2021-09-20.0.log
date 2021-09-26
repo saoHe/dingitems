@@ -1,0 +1,18 @@
+2021-09-20 20:45:05.804 [main] INFO  com.ding.dingitems.DingitemsApplication - Starting DingitemsApplication using Java 1.8.0_101 on PC-202010120908 with PID 11920 (G:\idea\items\dingitems\target\classes started by Administrator in G:\idea\items\dingitems)
+2021-09-20 20:45:05.806 [main] INFO  com.ding.dingitems.DingitemsApplication - The following profiles are active: dev
+2021-09-20 20:45:06.608 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-20 20:45:06.621 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2021-09-20 20:45:07.218 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2021-09-20 20:45:07.219 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1368 ms
+2021-09-20 20:45:07.465 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-20 20:45:07.615 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2021-09-20 20:45:07.770 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-09-20 20:45:07.871 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final
+2021-09-20 20:45:07.915 [main] INFO  org.xnio - XNIO version 3.8.0.Final
+2021-09-20 20:45:07.921 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.0.Final
+2021-09-20 20:45:07.957 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final
+2021-09-20 20:45:07.984 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer - Undertow started on port(s) 9090 (http)
+2021-09-20 20:45:07.991 [main] INFO  com.ding.dingitems.DingitemsApplication - Started DingitemsApplication in 2.827 seconds (JVM running for 4.245)
+2021-09-20 20:45:15.397 [SpringContextShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final
+2021-09-20 20:45:15.406 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-09-20 20:45:15.407 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

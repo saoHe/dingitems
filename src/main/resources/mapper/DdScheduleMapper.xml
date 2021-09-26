@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ding.dingitems.meeting.mapper.DdScheduleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ding.dingitems.meeting.entity.DdSchedule">
+        <id column="id" property="id" />
+        <result column="enterprise_id" property="enterpriseId" />
+        <result column="schedule_type" property="scheduleType" />
+        <result column="dd_meeting_id" property="ddMeetingId" />
+        <result column="organizer_id" property="organizerId" />
+        <result column="dd_user_id" property="ddUserId" />
+        <result column="summary" property="summary" />
+        <result column="attendees" property="attendees" />
+        <result column="event_id" property="eventId" />
+        <result column="start_time" property="startTime" />
+        <result column="end_time" property="endTime" />
+        <result column="reminder_min" property="reminderMin" />
+        <result column="adress" property="adress" />
+        <result column="status" property="status" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="ali_order_id" property="aliOrderId" />
+        <result column="description" property="description" />
+        <result column="latitude" property="latitude" />
+        <result column="longitude" property="longitude" />
+        <result column="details" property="details" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, enterprise_id, schedule_type, dd_meeting_id, dd_user_id, organizer_id, summary, attendees, event_id, start_time, end_time, reminder_min, adress, status, create_time, update_time, ali_order_id, description, latitude, longitude, details
+    </sql>
+
+</mapper>
