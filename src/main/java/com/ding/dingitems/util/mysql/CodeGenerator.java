@@ -73,6 +73,6 @@ public class CodeGenerator {
 
     public static void main(String[] args) {
 
-        startCode("meeting","com.ding.dingitems","dd_schedule",false);
+        startCode("meeting","com.ding.dingitems","dd_meeting",false);
     }
 }
